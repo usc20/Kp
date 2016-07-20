@@ -31,8 +31,8 @@
   <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/datatables-fixedheader/dataTables.fixedHeader.css">
   <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/datatables-responsive/dataTables.responsive.css">
 
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/jquery-wizard/jquery-wizard.css">
-  <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/vendor/formvalidation/formValidation.css">
+  <link rel="stylesheet" href="../../assets/vendor/jquery-wizard/jquery-wizard.css">
+  <link rel="stylesheet" href="../../assets/vendor/formvalidation/formValidation.css">
 
   <!-- Fonts -->
   <link rel="stylesheet" href="<?php  echo base_url(); ?>assets/fonts/web-icons/web-icons.min.css">
@@ -125,7 +125,7 @@
         <!-- Navbar Toolbar Right -->
         <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
           <li role="presentation">
-            <a href="<?php echo base_url(); ?>login/login_pegawai" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Keluar</a>
+            <a href="<?php echo base_url(); ?>Pegawai/login" role="menuitem"><i class="icon wb-power" aria-hidden="true"></i> Logout</a>
           </li>    
         </ul>
         <!-- End Navbar Toolbar Right -->
@@ -149,75 +149,5 @@
     </div>
 
   </nav>
-
-  <!-- Menu -->
-<div class="site-menubar">
-    <div class="site-menubar-body">
-      <div>
-        <div>
-          <ul class="site-menu">
-            <li class="site-menu-category">PEGAWAI</li>
-            <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)" data-slug="uikit">
-                <i class="site-menu-icon wb-bookmark" aria-hidden="true"></i>
-                <span class="site-menu-title">Pembeli</span>
-                <span class="site-menu-arrow"></span>
-              </a>
-              <ul class="site-menu-sub">
-                <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>pembeli/pembeli_buat" data-slug="uikit-buttons">
-                    <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Buat</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>pembeli/pembeli_lihat" data-slug="uikit-colors">
-                    <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Lihat</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)" data-slug="advanced">
-                <i class="site-menu-icon wb-hammer" aria-hidden="true"></i>
-                <span class="site-menu-title">Transaksi Penjualan</span>
-                <span class="site-menu-arrow"></span>
-              </a>
-              <ul class="site-menu-sub">
-                <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>transaksi_penjualan/transaksi_penjualan_buat" data-slug="advanced-animation">
-                    <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Buat</span>
-                  </a>
-                </li>
-                <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>penjualan/penjualan_lihat" data-slug="advanced-lightbox">
-                    <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Lihat</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="site-menu-item has-sub">
-              <a href="javascript:void(0)" data-slug="structure">
-                <i class="site-menu-icon wb-plugin" aria-hidden="true"></i>
-                <span class="site-menu-title">Barang</span>
-                <span class="site-menu-arrow"></span>
-              </a>
-              <ul class="site-menu-sub">
-                <li class="site-menu-item">
-                  <a class="animsition-link" href="<?php echo base_url(); ?>barang/barang_lihat_pegawai" data-slug="structure-alerts">
-                    <i class="site-menu-icon " aria-hidden="true"></i>
-                    <span class="site-menu-title">Lihat</span>
-                  </a>
-                </li>
-              </ul>
-            </li>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Menu -->
   
 <!-- End Header -->

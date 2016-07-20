@@ -46,7 +46,7 @@
   <script src="<?php  echo base_url(); ?>assets/js/components/switchery.js"></script>
   <script src="<?php  echo base_url(); ?>assets/js/components/jquery-placeholder.js"></script>
 
-  <script src="<?php  echo base_url(); ?>assets/js/components/matchheight.js"></script>
+  <script src="../../assets/js/components/matchheight.js"></script>
 
   <script>
     (function(document, window, $) {
@@ -151,7 +151,7 @@
             ],
             "sDom": '<"dt-panelmenu clearfix"Tfr>t<"dt-panelfooter clearfix"ip>',
             "oTableTools": {
-              "sSwfPath": "<?php  echo base_url(); ?>assets/vendor/datatables-tabletools/swf/copy_csv_xls_pdf.swf"
+              "sSwfPath": "../../assets/vendor/datatables-tabletools/swf/copy_csv_xls_pdf.swf"
             }
           });
 
@@ -373,7 +373,7 @@
             return true;
           },
           onFinish: function() {
-             $('#exampleFormContainer').submit();
+            // $('#exampleFormContainer').submit();
           },
           buttonsAppendTo: '.panel-body'
         });
